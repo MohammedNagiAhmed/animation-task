@@ -1,0 +1,194 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.continar {
+  position: relative;
+  width: 100%;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+  right: 0;
+}
+
+.size {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  
+}
+
+.odd-animation {
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+.even-animation {
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+ 
+}
+.one {
+  background-color: aqua;
+  animation-name: one;
+  position: absolute;
+  background-image: url(../imege/start.jpg);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+    
+}
+@keyframes one {
+  0% {
+    left: 0;
+    background-image: url(../imege/start.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+  }
+  50%{
+    background-image: url(../imege/mid.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+  }
+
+  100% {
+    left: 1230px;
+    background-image: url(../imege/win.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    
+    
+  }
+}
+
+.two {
+  background-color: rgb(197, 140, 65);
+  animation-delay: 3s;
+  position: absolute;
+  top: 100px;
+  animation-name: two;
+  background-image: url(../imege/-sunset.jpg);
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+}
+@keyframes two {
+  0% {
+    right: 0;
+    background-image: url(../imege/S1oE8qI.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+  }
+
+  100% {
+    right: 1230px;
+    background-image: url(../imege/ocean.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+  }
+}
+
+.three {
+  background-color: black;
+  animation-name: three;
+  animation-delay: 6s;
+  position: absolute;
+  top: 200px;
+}
+@keyframes three {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: 1230px;
+  }
+}
+
+.fore {
+  background-color: burlywood;
+  position: absolute;
+  top: 300px;
+  animation-name: fore ;
+  animation-delay: 9s;
+}
+@keyframes fore {
+  0% {
+    right: 0;
+  }
+
+  100% {
+    right: 1230px;
+  }
+}
+
+.five {
+  background-color: chocolate;
+  position: absolute;
+  top: 400px;
+  animation-name: five;
+  animation-delay: 12s;
+}
+@keyframes five {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: 1230px;
+  }
+}
+
+.six {
+  background-color: cornflowerblue;
+  position: absolute;
+  top: 500px;
+  animation-name: six;
+  
+  animation-delay: 15s;
+}
+@keyframes six {
+  0% {
+    right: 0;
+  }
+
+  100% {
+    right: 1230px;
+  }
+}
+
+.seven {
+  background-color: darksalmon;
+  position: absolute;
+  top: 600px;
+  animation-name: seven;
+  animation-delay: 18s;
+}
+@keyframes seven {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: 1230px;
+  }
+}
+
+.eight {
+  background-color: darkmagenta;
+  position: absolute;
+  top: 700px;
+  animation-name: eight;
+  animation-delay: 21s;
+}
+
+@keyframes eight {
+  0% {
+    right: 0;
+  }
+
+  100% {
+    right: 1230px;
+  }
+}
